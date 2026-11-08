@@ -9,3 +9,5 @@
 
 .support-photo{max-width:470px;margin:3rem auto 0}.support-photo img{width:100%;height:380px;object-fit:contain;background:#171719}
 @media(max-width:850px){html:not(.js) .nav-menu{display:flex;flex-wrap:wrap;position:static}html:not(.js) .nav{height:auto;min-height:100px;flex-wrap:wrap}html:not(.js) .nav-menu{width:100%;order:4;padding-bottom:.8rem}html:not(.js){scroll-padding-top:150px}}
+
+.species-photo{margin:0 0 1.4rem}.species-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block;background:var(--bg2)}.credit{font-size:.72rem}.credit a,.legal a{color:var(--accent)}.gallery,.video-grid{display:grid;gap:1.5rem;margin-top:2.5rem}.gallery{grid-template-columns:repeat(3,minmax(0,1fr))}.video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:4px;display:block}.video-grid video{width:100%;height:auto;border-radius:4px;background:#000;display:block}@media(max-width:850px){.gallery,.video-grid{grid-template-columns:1fr}.gallery img{aspect-ratio:4/3}}
